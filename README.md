@@ -36,5 +36,5 @@ finish when pressed Ctrl-D
  
  # Reference
  
- [英和・和英辞書APIのデ辞蔵を呼び出すRubyコードのサンプル](https://morizyun.github.io/blog/dejizo-api-dictionary-api-ruby/index.html)
- [デ辞蔵Webサービス - REST版API | イースト株式会社](https://www.est.co.jp/dev/dict/rest)
+ - [英和・和英辞書APIのデ辞蔵を呼び出すRubyコードのサンプル](https://morizyun.github.io/blog/dejizo-api-dictionary-api-ruby/index.html)
+ - [デ辞蔵Webサービス - REST版API | イースト株式会社](https://www.est.co.jp/dev/dict/rest)
