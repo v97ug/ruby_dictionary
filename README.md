@@ -33,3 +33,8 @@ finish when pressed Ctrl-D
 （…から…へ）『引っ越す』，移転する《＋『ｆｏｍ』（『ｏｕｔ　ｏｆ』）＋『名』＋『ｔｏ』＋『名』》
 《副詞［句］を伴って》〈時間などか〉経過する（ある方向へ）〈事態・仕事などが〉進展する，向かう
  ```
+ 
+ # Reference
+ 
+ [英和・和英辞書APIのデ辞蔵を呼び出すRubyコードのサンプル](https://morizyun.github.io/blog/dejizo-api-dictionary-api-ruby/index.html)
+ [デ辞蔵Webサービス - REST版API | イースト株式会社](https://www.est.co.jp/dev/dict/rest)
