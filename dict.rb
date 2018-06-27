@@ -20,7 +20,6 @@ def get_en_translation(url)
 end
 
 def translate_en_to_jp(word_en)
-  # (1) 英単語の単語ItemIdを取得
   enc_word = URI.encode(word_en)
   item_url = "http://public.dejizo.jp/NetDicV09.asmx/SearchDicItemLite?Dic=EJdict&Word=#{enc_word}&Scope=HEADWORD&Match=EXACT&Merge=OR&Prof=XHTML&PageSize=20&PageIndex=0"
   item_id = get_item_id(item_url)
@@ -35,7 +34,6 @@ def get_jp_translation(url)
 end
 
 def translate_jp_to_en(word_jp)
-  # 日本語単語のItemIdを取得
   enc_word = URI.encode(word_jp)
   item_url = "http://public.dejizo.jp/NetDicV09.asmx/SearchDicItemLite?Dic=EdictJE&Word=#{enc_word}&Scope=HEADWORD&Match=EXACT&Merge=OR&Prof=XHTML&PageSize=20&PageIndex=0"
   item_id = get_item_id(item_url)
