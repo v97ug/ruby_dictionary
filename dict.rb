@@ -41,8 +41,13 @@ def translate_jp_to_en(word_jp)
   get_jp_translation(trans_url)
 end
 
-puts "0: English to Japanese, 1: Japanese to English"
-en_or_jp = Readline.readline("> ", true)
+if ARGV[0] == nil
+  puts "0: English to Japanese, 1: Japanese to English"
+  en_or_jp = Readline.readline("> ", true)
+else
+  en_or_jp = ARGV[0]
+end
+
 if en_or_jp == "0"
   puts "English to Japanese mode!"
   puts "finish when pressed Ctrl-D"
